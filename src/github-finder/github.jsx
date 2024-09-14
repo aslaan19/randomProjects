@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './github.css'
 export default function Github() {
   const [username, setUsername] = useState(""); // Default username
   const [userData, setUserData] = useState(null);       // Holds the fetched user data
