@@ -1,0 +1,38 @@
+/* App.css */
+
+  
+  [data-theme="dark"] {
+    --background: #000000;
+    --text-primary: #fff;
+    --button-bg: #fff;
+    --button-text: #000;
+  }
+  
+  /* Global styles for the entire screen */
+
+  
+  /* Styling for the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .container p {
+    color: var(--text-primary);
+    font-size: 40px;
+    margin: 0px;
+  }
+  
+  .container button {
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-bg);
+    color: var(--button-text);
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
