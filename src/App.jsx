@@ -4,11 +4,12 @@ import './App.css'
 import Scroll from './scroll_indicator/scroll'
 import Tabs from './tabs/Tabs'
 import ModelTest from './modelPop/modelTest'
+import Github from './github-finder/github'
 function App() {
 
   return (
     <>
-      <ModelTest></ModelTest>
+      <Github></Github>
     </>
   )
 }
